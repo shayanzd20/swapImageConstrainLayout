@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">Sample App</string>
     <string name="desc">counter image</string>
+    <string name="login">Login</string>
+    <string name="logout">Log Out</string>
+    <string name="remember">Remember Me</string>
+    <string name="breakfast">Break Fast</string>
+    <string name="dinner">Dinner</string>
+    <string name="lunch">Lunch</string>
+    <string name="salad">Salad</string>
+    <string name="title_activity_constrain_part1">ConstrainPart1Activity</string>
 </resources>
