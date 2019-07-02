@@ -32,6 +32,11 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CheckBoxActivity.class);
         startActivity(intent);
     }
+    public void goToFloatingImage(View view)
+    {
+        Intent intent = new Intent(this,FloatingImage.class);
+        startActivity(intent);
+    }
 
 
 
