@@ -9,17 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FloatingImage">
-
-        </activity>
+        <activity android:name=".ChangeLayout"></activity>
+        <activity android:name=".FloatingImage"></activity>
         <activity
             android:name=".ConstrainPart1Activity"
             android:label="@string/title_activity_constrain_part1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CheckBoxActivity"
             android:label="@string/title_activity_constrain_part1"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

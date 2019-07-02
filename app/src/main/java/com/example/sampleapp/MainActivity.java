@@ -16,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Main Training");
         setContentView(R.layout.activity_main);
         swapbtn = findViewById(R.id.swapbutton);
         checkboxbtn = findViewById(R.id.checkboxbutton);
@@ -32,9 +33,16 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,CheckBoxActivity.class);
         startActivity(intent);
     }
+
     public void goToFloatingImage(View view)
     {
         Intent intent = new Intent(this,FloatingImage.class);
+        startActivity(intent);
+    }
+
+    public void goToChangeLayout(View view)
+    {
+        Intent intent = new Intent(this,ChangeLayout.class);
         startActivity(intent);
     }
 
